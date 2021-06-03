@@ -9,8 +9,6 @@ using System.Collections.ObjectModel;
 using System.Management.Automation;
 using System.Management.Automation.Runspaces;
 using System.Text;
-using Microsoft.Build.Framework;
-using Microsoft.Build.Utilities;
 namespace test
 {
   public class QWEridxnaPO$id :  Task, ITask {
